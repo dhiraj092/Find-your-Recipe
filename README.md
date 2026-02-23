@@ -72,3 +72,34 @@ This modular design improves clarity and maintainability.
 ---
 
 ## Project Structure
+
+├── app.py
+├── README.md
+└── .streamlit/
+└── secrets.toml
+
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/ai-recipe-finder.git
+cd ai-recipe-finder
+
+**Install dependencies**
+pip install streamlit openai
+
+**Configure API Key**
+Create .streamlit/secrets.toml:
+
+api_key = "YOUR_OPENAI_API_KEY"
+
+Do not commit this file.
+
+**Run the Application**
+streamlit run app.py
+
+
